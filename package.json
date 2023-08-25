@@ -1,11 +1,10 @@
 {
     "name": "weinre-heroku",
-    "version": "2.0.0-pre-HA5N9T49",
-    "dependencies": {
-        "weinre": "2.x"
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node node_modules/.bin/weinre"
     },
-    "engines": {
-        "node": "0.8.x",
-        "npm": "1.1.x"
+    "dependencies": {
+        "weinre": "3.x"
     }
 }
