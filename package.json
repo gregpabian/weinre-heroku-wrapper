@@ -2,7 +2,7 @@
     "name": "weinre-heroku",
     "version": "1.0.0",
     "scripts": {
-      "start": "node node_modules/.bin/weinre"
+      "start": "node node_modules/.bin/weinre --httpPort $PORT --boundHost -all- --verbose"
     },
     "dependencies": {
         "weinre": "3.x"
